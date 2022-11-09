@@ -5,7 +5,7 @@ gnome = import('gnome')
 gettext_name = meson.project_name()
 add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(gettext_name), language:'c')
 
-wingpanel_dep = dependency('wingpanel-2.0')
+wingpanel_dep = dependency('wingpanel')
 switchboard_dep = dependency('switchboard-2.0')
 
 dependencies = [

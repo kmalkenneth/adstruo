@@ -32,9 +32,7 @@ public class Adstruo.Keys : Wingpanel.Indicator {
 
     public Keys () {
         Object (
-            code_name : "adstruo-30-keys",
-            display_name : _("Keyboard Status Keys"),
-            description: _("Shows the Capslock or Numlock status in the wingpanel")
+            code_name : "adstruo-30-keys"
         );
     }
 

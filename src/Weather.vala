@@ -35,9 +35,7 @@ public class Adstruo.Weather : Wingpanel.Indicator {
 
     public Weather () {
         Object (
-            code_name : "adstruo-10-weather",
-            display_name : _("Weather Conditions Indicator"),
-            description: _("Shows a weather indicator in the wingpanel")
+            code_name : "adstruo-10-weather"
         );
     }
 
